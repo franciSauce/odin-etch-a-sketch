@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+    font-family: "Doto";
+}
+
+.header {
+    
+}
+
+.form {
+
+}
+
+.grid-size {
+
+}
+
+.sub,
+button {
+    font-family: "Doto";
+    cursor: pointer;
+}
+
+#copy-input {
+
+}
+
+#prompt {
+
+}
+
+#btns {
+
+}
+
+.canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.canvas-area {
+    display: flex;
+    flex-direction: column;
+    border: 10px solid white;
+    border-radius: 6px;
+    width: 600px;
+    height: 600px;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+}
+
+.column {
+    border: 1px solid white;
+    flex: 1;
+}
+
+.column-red {
+    border: 1px solid rgb(97, 71, 71);
+    background-color: rgb(218, 45, 45);
+    flex: 1;
+}
+
+.column-green {
+    border: 1px solid rgb(71, 97, 71);
+    background-color: rgb(45, 218, 45);
+    flex: 1;
+}
+
+.column-blue {
+    border: 1px solid rgb(71, 71, 97);
+    background-color: rgb(45, 45, 218);
+    flex: 1;
+}
+
+.footer {
+    
+}
+
