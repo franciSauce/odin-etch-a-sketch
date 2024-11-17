@@ -71,11 +71,11 @@ function changeColor() {
     let eraserRad = document.querySelector("#eraser");
 
     if (redRad.checked) {
-        this.backgroundColor = "rgb(218, 45, 45)";
+        this.style.backgroundColor = "rgb(218, 45, 45)";
     } else if (greenRad.checked) {
-        this.backgroundColor = "rgb(45, 218, 45)";
+        this.style.backgroundColor = "rgb(45, 218, 45)";
     } else if (blueRad.checked) {
-        this.backgroundColor = "rgb(45, 45, 218)";
+        this.style.backgroundColor = "rgb(45, 45, 218)";
     } else if (randomRad.checked) {
         let randomColor = Math.floor(Math.random() * 16777215).toString(16);
         this.style.backgroundColor = "#" + randomColor;
