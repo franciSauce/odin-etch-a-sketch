@@ -37,7 +37,7 @@ function createGrid() {
         copyInput.textContent = "";
 
         if (gridSize == 0 || gridSize > 99 || gridSize == "") {
-            gridSize = 16;
+            gridSize = 16; // Default to 16 if invalid
         }
 
         for (let i = 0; i < gridSize; i++) {
@@ -64,18 +64,18 @@ function draw() {
 }
 
 function changeColor() {
-    const redRad = document.getElementById("red-clr");
-    const greenRad = document.getElementById("green-clr");
-    const blueRad = document.getElementById("blue-clr");
-    const randomRad = document.getElementById("random");
-    const eraserRad = document.getElementById("eraser");
+    let redRad = document.querySelector("#red-clr");
+    let greenRad = document.querySelector("#green-clr");
+    let blueRad = document.querySelector("#blue-clr");
+    let randomRad = document.querySelector("#random");
+    let eraserRad = document.querySelector("#eraser");
 
     if (redRad.checked) {
-        this.backgroundColor = rgb(218, 45, 45);
+        this.backgroundColor = "rgb(218, 45, 45)";
     } else if (greenRad.checked) {
-        this.backgroundColor = rgb(0, 128, 0);
+        this.backgroundColor = "rgb(45, 218, 45)";
     } else if (blueRad.checked) {
-        this.backgroundColor = rgb(0, 0, 255);
+        this.backgroundColor = "rgb(45, 45, 218)";
     } else if (randomRad.checked) {
         let randomColor = Math.floor(Math.random() * 16777215).toString(16);
         this.style.backgroundColor = "#" + randomColor;
