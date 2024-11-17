@@ -31,19 +31,29 @@ body {
 .sub,
 button {
     font-family: "Doto";
+    font-weight: 900;
     cursor: pointer;
+    border: 1px solid rgb(231, 147, 37);
+    border-radius: 10px;
+    padding: 2px 8px;
 }
 
 #copy-input {
-
+    margin-right: 10px;
 }
 
 #prompt {
-
+    font-size: 16px;
+    color: white;
 }
 
 #btns {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
+    font-weight: bold;
 }
 
 .canvas {
