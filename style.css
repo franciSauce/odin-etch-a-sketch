@@ -29,7 +29,7 @@ body {
 .grid-size {
     border: 1px solid rgb(231, 147, 37);
     border-radius: 10px;
-    width: 90px;
+    width: 45px;
     height: 25px;
     margin: 0 8px;
 }
@@ -45,12 +45,13 @@ button {
 }
 
 #copy-input {
-    margin-right: 10px;
+    margin: 0 5px;
 }
 
 #prompt {
-    font-size: 16px;
-    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(218, 213, 172);
 }
 
 #btns {
@@ -71,7 +72,7 @@ button {
 .canvas-area {
     display: flex;
     flex-direction: column;
-    border: 10px solid rgb(241, 239, 239);
+    border: 3px solid rgb(241, 239, 239);
     border-radius: 6px;
     width: 600px;
     height: 600px;
