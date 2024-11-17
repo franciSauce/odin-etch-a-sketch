@@ -20,6 +20,12 @@ body {
     align-items: center;
 }
 
+.form p {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
 .grid-size {
     border: 1px solid rgb(231, 147, 37);
     border-radius: 10px;
@@ -99,7 +105,4 @@ button {
     flex: 1;
 }
 
-.footer {
-    
-}
 
