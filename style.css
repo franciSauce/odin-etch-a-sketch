@@ -9,7 +9,9 @@ body {
 }
 
 .header {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .form {
@@ -47,7 +49,7 @@ button {
 .canvas-area {
     display: flex;
     flex-direction: column;
-    border: 10px solid white;
+    border: 10px solid rgb(241, 239, 239);
     border-radius: 6px;
     width: 600px;
     height: 600px;
@@ -59,7 +61,7 @@ button {
 }
 
 .column {
-    border: 1px solid white;
+    border: 1px solid rgb(250, 245, 245);
     flex: 1;
 }
 
