@@ -43,7 +43,7 @@ function createGrid() {
         for (let i = 0; i < gridSize; i++) {
             let row = document.createElement("div");
             row.classList.add("row");
-            grid.appendChild("row");
+            grid.appendChild(row);
             
             for (let j = 0; j < gridSize; j++) {
                 let column = document.createElement("div");
